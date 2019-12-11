@@ -1,7 +1,5 @@
 package github.snkienholz;
 
-import java.time.temporal.ValueRange;
-
 public class VehicleChassis implements Chassis {
 
   String chassisName;
@@ -15,8 +13,8 @@ public class VehicleChassis implements Chassis {
   }
 
   @Override
-  public String getChassisType() {
-    return CHASSIS;
+  public Chassis getChassisType() {
+    return new VehicleChassis();
   }
 
   @Override

@@ -4,7 +4,7 @@ public interface Chassis {
 
   String CHASSIS = "Chassis";
 
-  String getChassisType();
+  Chassis getChassisType();
 
   void setChassisType(String vehicleChassis);
 }
