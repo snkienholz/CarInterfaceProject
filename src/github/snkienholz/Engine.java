@@ -4,7 +4,7 @@ import java.util.Date;
 
 public interface Engine {
 
-  void EngineCylinders(int engineCylinders);
+  void setEngineCylinders(int engineCylinders);
 
   void setEngineManufacturedDate(Date date);
 

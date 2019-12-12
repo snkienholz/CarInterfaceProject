@@ -2,8 +2,10 @@ package github.snkienholz;
 
 public class VehicleFrame implements Chassis {
 
-  String vehicleFrameType;
+  // instance variables
+  private String vehicleFrameType;
 
+  /*** CONSTRUCTORS ***/
   public VehicleFrame() {
     vehicleFrameType = "Unibody";
   }
@@ -23,17 +25,17 @@ public class VehicleFrame implements Chassis {
   }
 
   public String toString() {
-    return "Chassis : Chassis "
-        + "\nVehicle Frame : " + vehicleFrameType;
+    return "Chassis : Chassis " + "\n"
+        + "Vehicle Frame : " + vehicleFrameType;
   }
 
   public static void main(String[] args) {
 
-    VehicleFrame frame1 = new VehicleFrame();
-    VehicleFrame frame2 = new VehicleFrame("Ladder Frame");
+    VehicleFrame defaultFrame = new VehicleFrame();
+    VehicleFrame definedFrame = new VehicleFrame("Ladder Frame");
 
-    System.out.println(frame1);
+    System.out.println(defaultFrame);
     System.out.println();
-    System.out.println(frame2);
+    System.out.println(definedFrame);
   }
 }
