@@ -5,7 +5,7 @@ public class VehicleFrame implements Chassis {
   // instance variables
   private String vehicleFrameType;
 
-  /*** CONSTRUCTORS ***/
+  // CONSTRUCTORS
   public VehicleFrame() {
     vehicleFrameType = "Unibody";
   }

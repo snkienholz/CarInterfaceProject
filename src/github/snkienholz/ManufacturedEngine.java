@@ -13,7 +13,7 @@ public class ManufacturedEngine implements Engine {
   private String engineType;
   private String driveTrain;
 
-  /*** CONSTRUCTORS ***/
+  // CONSTRUCTORS
   public ManufacturedEngine() {
 
     this.engineManufacturer = "Generic";
@@ -89,7 +89,7 @@ public class ManufacturedEngine implements Engine {
     ManufacturedEngine defaultEngine = new ManufacturedEngine();
     ManufacturedEngine definedEngine = new ManufacturedEngine(
         "Honda",
-         new Date(1328162144),
+        new Date(1328162144),
         "H-Series",
         "H23A1",
         4,

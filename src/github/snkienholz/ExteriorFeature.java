@@ -5,7 +5,7 @@ public class ExteriorFeature implements Feature {
   // instance variable
   private String exteriorFeature;
 
-  /*** CONSTRUCTORS ***/
+  // CONSTRUCTORS
   public ExteriorFeature() {
     this.exteriorFeature = "Generic";
   }

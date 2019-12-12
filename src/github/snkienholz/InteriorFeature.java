@@ -1,11 +1,11 @@
 package github.snkienholz;
 
-public class InteriorFeature implements Feature{
+public class InteriorFeature implements Feature {
 
   //instance variables
   private String interiorFeature;
 
-  /*** CONSTRUCTORS ***/
+  // CONSTRUCTORS
   public InteriorFeature() {
     interiorFeature = "Generic";
   }

@@ -14,16 +14,16 @@ public class Vehicle implements Engine, Chassis {
   private String driveTrain;
   private Engine vehicleEngine;
 
-  /*** CONSTRUCTORS ***/
+  // CONSTRUCTORS
   public Vehicle() {
-      this.vehicleManufacturedDate = new Date();
-      this.vehicleManufacturer = "Generic";
-      this.vehicleMake = "Generic";
-      this.vehicleModel = "Generic";
-      this.vehicleFrame = new VehicleFrame();
-      this.vehicleType = "None";
-      this.driveTrain = "2WD: Two-Wheel Drive";
-      this.vehicleEngine = new ManufacturedEngine();
+    this.vehicleManufacturedDate = new Date();
+    this.vehicleManufacturer = "Generic";
+    this.vehicleMake = "Generic";
+    this.vehicleModel = "Generic";
+    this.vehicleFrame = new VehicleFrame();
+    this.vehicleType = "None";
+    this.driveTrain = "2WD: Two-Wheel Drive";
+    this.vehicleEngine = new ManufacturedEngine();
   }
 
   public Vehicle(String vehicleManufacturer, Date vehicleManufacturedDate, String vehicleMake,

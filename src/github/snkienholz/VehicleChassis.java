@@ -23,7 +23,7 @@ public class VehicleChassis implements Chassis {
   }
 
   public String toString() {
-     return "Chassis Name: " + chassisName;
+    return "Chassis Name: " + chassisName;
   }
 
   public static void main(String[] args) {
@@ -31,5 +31,9 @@ public class VehicleChassis implements Chassis {
     // Create new chassis
     VehicleChassis defaultChassis = new VehicleChassis();
     VehicleChassis definedChassis = new VehicleChassis("Something");
+
+    System.out.println(defaultChassis);
+    System.out.println();
+    System.out.println(definedChassis);
   }
 }
