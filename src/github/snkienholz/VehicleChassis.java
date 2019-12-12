@@ -28,7 +28,8 @@ public class VehicleChassis implements Chassis {
 
   public static void main(String[] args) {
 
-    VehicleChassis vehicle1 = new VehicleChassis();
-    VehicleChassis vehicle2 = new VehicleChassis("Something");
+    // Create new chassis
+    VehicleChassis defaultChassis = new VehicleChassis();
+    VehicleChassis definedChassis = new VehicleChassis("Something");
   }
 }

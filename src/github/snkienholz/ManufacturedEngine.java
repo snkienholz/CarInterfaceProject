@@ -85,6 +85,7 @@ public class ManufacturedEngine implements Engine {
 
   public static void main(String[] args) {
 
+    // Create new engines
     ManufacturedEngine defaultEngine = new ManufacturedEngine();
     ManufacturedEngine definedEngine = new ManufacturedEngine(
         "Honda",
@@ -96,6 +97,7 @@ public class ManufacturedEngine implements Engine {
         "2WD: Two-Wheel Drive"
     );
 
+    // Display engines
     System.out.println(defaultEngine);
     System.out.println();
     System.out.println(definedEngine);

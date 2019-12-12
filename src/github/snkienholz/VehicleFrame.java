@@ -31,9 +31,11 @@ public class VehicleFrame implements Chassis {
 
   public static void main(String[] args) {
 
+    // Create new frames
     VehicleFrame defaultFrame = new VehicleFrame();
     VehicleFrame definedFrame = new VehicleFrame("Ladder Frame");
 
+    // Display frames
     System.out.println(defaultFrame);
     System.out.println();
     System.out.println(definedFrame);
